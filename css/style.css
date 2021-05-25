@@ -131,7 +131,7 @@ border: 1px solid rgba(200, 100, 0, 0.3);
 
     .tamales-compra1 {
         height: 735px;
-        background-color: #f8ac4e;
+        background-color: #f37e7e;
         margin-top: -3%;
         border-radius: 25px;
         background-blend-mode: soft-light;
@@ -144,7 +144,7 @@ border: 1px solid rgba(200, 100, 0, 0.3);
     }
     .tamales-compra1 .tamales-compra1-seleccionador {
         margin-left: 45%;
-        width:15%;
+        width:10%;
         height: 5%;
     }
     .tamales-compra1 .tamales-compra1-subtitulo{
@@ -159,15 +159,32 @@ border: 1px solid rgba(200, 100, 0, 0.3);
         font-size: 15px;  
     }
 
-    .tamales-compra1 .tamales-compra1-estilo1{
-        background: rgba(4, 245, 152, 0.3); 
-        border: 1px solid rgba(200, 100, 0, 0.3);
-        }
-    .tamales-compra1 .tamales-compra1-estilo2{
-    background: rgba(232, 248, 4, 0.3); 
-    border: 1px solid rgba(200, 100, 0, 0.3);
+    .tamales-compra1 .tamales-compra1-button1{
+        margin-top: 5%;
+        background-color: #E9241F;
+        height: 65px;
+        border-radius: 55px;
+        width: 140px;
+        font-size: 20px;
     }
-    .tamales-compra1 .tamales-compra1-estilo3{
-        background: rgba(4, 126, 59, 0.3); 
-        border: 1px solid rgba(200, 100, 0, 0.3);
-        }
+    
+    .tamales-compra1 .tamales-compra1-button2{
+        margin-top: 5%;
+        background-color: #00fc00;
+        height: 65px;
+        border-radius: 55px;
+        width: 140px;
+        font-size: 20px;
+    }
+
+    .tamales-compra1 .tamales-compra1-botones {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .tamales-compra1 .tamales-compra1-productos img{
+        width: 190px
+    }
+    .tamales-compra1 .tamales-compra1-productos-fila h4 {
+        margin-top: 2%;
+    }
