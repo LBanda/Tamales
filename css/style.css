@@ -1,7 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #efefef;
+    width: 100%;
+    height: 8rem;
+    border-radius: 25px; 
+}
+
+nav ul{
+    float: left;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a { 
+    display: block;
+    padding: 0 2rem;
+    line-height: 6rem;
+    color: black;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap;
+}
+
+nav ul li ul li a:hover{
+    background-color: #efefef;
+}
+
 a{
     
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Spartan', sans-serif;  
 }
+
 h1 {
     font-family: 'Anton', sans-serif;
 }
@@ -70,3 +126,48 @@ border: 1px solid rgba(200, 100, 0, 0.3);
     background: rgba(4, 126, 59, 0.3); 
     border: 1px solid rgba(200, 100, 0, 0.3);
     }
+
+    /* ---------------------- Compra1 ------------------- */
+
+    .tamales-compra1 {
+        height: 735px;
+        background-color: #f8ac4e;
+        margin-top: -3%;
+        border-radius: 25px;
+        background-blend-mode: soft-light;
+        background-size: cover;
+    }
+    
+    .tamales-compra1 .tamales-compra1-titulo {
+        text-align: center;
+        color:white;
+    }
+    .tamales-compra1 .tamales-compra1-seleccionador {
+        margin-left: 45%;
+        width:15%;
+        height: 5%;
+    }
+    .tamales-compra1 .tamales-compra1-subtitulo{
+        text-align: center;
+        /*font-family: fantasy; */
+        font-size: 20px;    
+    }
+    
+    .tamales-compra1 .tamales-compra1-texto{
+        text-align: left;
+        font-family: monospace; 
+        font-size: 15px;  
+    }
+
+    .tamales-compra1 .tamales-compra1-estilo1{
+        background: rgba(4, 245, 152, 0.3); 
+        border: 1px solid rgba(200, 100, 0, 0.3);
+        }
+    .tamales-compra1 .tamales-compra1-estilo2{
+    background: rgba(232, 248, 4, 0.3); 
+    border: 1px solid rgba(200, 100, 0, 0.3);
+    }
+    .tamales-compra1 .tamales-compra1-estilo3{
+        background: rgba(4, 126, 59, 0.3); 
+        border: 1px solid rgba(200, 100, 0, 0.3);
+        }
