@@ -15,24 +15,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Catamaran&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap" rel="stylesheet"> 
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>Tamales norteños</title>
-</head>
-
-<body>
-
 </head>
 
 <body>
     <div class="container tamales-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <a class="navbar-brand tamales-navbar-logo" href="#">
-                <img src="img/tamales-logo.jpeg" width="220" height="160" alt="">
+                <img src="../img/tamales-logo.jpeg" width="220" height="160" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -48,39 +40,26 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">
-                            <h4> Bienvenido </h4>
+                            <h4> Bienvenido, <%- usuario %> </h4>
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
         <hr>
-
-    </div>
-
-    <div class="container tamales-navbar">
-        <nav>
-            <ul>
-                <li><a href="#">Entregas</a></li>
-                <li><a href="#">Realizar pedido</a></li>
-                <li><a href="#">Consultar pedidos</a></li>
-                <li><a href="#">Perfil</a></li>
-                <li><a href="#">Usuario<i class="icon ion-md-arrow-dropdown"></i></a>
-                <ul>
-                    <li><a href="#">Registrarse</a></li>
-                    <li><a href="#">Iniciar sesión</a></li>
-                </ul></li>
-            </ul>
-        </nav>
     </div>
     <br>
     <br>
+    <div class="container tamales-compra1" >
 
 
 
-    
 
-<!-- Optional JavaScript -->
+
+
+
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -91,6 +70,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-</body>
+    </body>
 
-</html>
+    </html>
