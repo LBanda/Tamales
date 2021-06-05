@@ -188,3 +188,117 @@ border: 1px solid rgba(200, 100, 0, 0.3);
     .tamales-compra1 .tamales-compra1-productos-fila h4 {
         margin-top: 2%;
     }
+
+    /* ---------------------- Compra2 ------------------- */
+
+    .tamales-compra2 {
+        height: 400px;
+        background-color: #f37e7e;
+        margin-top: -3%;
+        border-radius: 25px;
+        background-blend-mode: soft-light;
+        background-size: cover;
+    }
+    
+    .tamales-compra2 .tamales-compra2-titulo {
+        text-align: center;
+        color:white;
+    }
+    .tamales-compra2 .tamales-compra2-seleccionador {
+        margin-left: 45%;
+        width:10%;
+        height: 5%;
+    }
+    .tamales-compra2 .tamales-compra2-subtitulo{
+        text-align: center;
+        /*font-family: fantasy; */
+        font-size: 20px;    
+    }
+    
+    .tamales-compra2 .tamales-compra2-texto{
+        text-align: left;
+        font-family: monospace; 
+        font-size: 15px;  
+    }
+
+    .tamales-compra2 .tamales-compra2-button1{
+        margin-top: 5%;
+        background-color: #1b6bac;
+        height: 65px;
+        border-radius: 55px;
+        width: 140px;
+        font-size: 20px;
+    }
+    
+    .tamales-compra2 .tamales-compra2-button2{
+        margin-top: 5%;
+        background-color: #e91d16;
+        height: 65px;
+        border-radius: 55px;
+        width: 140px;
+        font-size: 20px;
+    }
+
+    .tamales-compra2 .tamales-compra2-botones {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .tamales-compra2 .tamales-compra1-img{
+        width: 150px
+    }
+    .tamales-compra2 .tamales-compra2-img{
+        width: 163px
+    }
+  
+    /* ---------------------- Compra domicilio ------------------- */
+
+    .tamales-compraD {
+        height: 500px;
+        background-color: #f37e7e;
+        margin-top: -3%;
+        border-radius: 25px;
+        background-blend-mode: soft-light;
+        background-size: cover;
+    }
+    
+    .tamales-compraD .tamales-compraD-titulo {
+        text-align: center;
+        color:white;
+    }
+
+    .tamales-compraD .tamales-compraD-texto{
+        text-align: left;
+        font-family: monospace; 
+        font-size: 15px;  
+    }
+    .tamales-compraD .tamales-compraD-button{
+        margin-top: 0%;
+        background-color: #1b6bac;
+        height: 50px;
+        border-radius: 55px;
+        width: 165px;
+        font-size: 20px;
+        margin-left: 43%;
+    }
+
+    /* ---------------------- Login ------------------- */
+    .tamales-login {
+        height: 400px;
+        background-color: #f37e7e;
+        margin-top: -3%;
+        border-radius: 25px;
+        background-blend-mode: soft-light;
+        background-size: cover;
+    }
+
+    .tamales-login .tamales-login-titulo {
+        text-align: center;
+        color:white;
+    }
+
+    .tamales-login .tamales-login-subtitulo{
+        text-align: center;
+        /*font-family: fantasy; */
+        font-size: 20px;    
+    }
