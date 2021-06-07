@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 var mysql = require('mysql');
 var connection = mysql.createConnection({
    host: 'localhost',
    user: 'root',
    password: '',
-   database: 'db/tamalesn'
+   database: 'db/tamalesn',
+   port: 3306
 });
 connection.connect(function(error){
    if(error){
@@ -13,10 +13,3 @@ connection.connect(function(error){
       console.log('Conexion correcta.');
    }
 });
-connection.end();
-=======
-const express = require('express');
-const app = express();
-
-const rutasTamales = require('./routes/index');
->>>>>>> 261237b48e49e40681ef00699ad3c9853e738bea
