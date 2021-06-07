@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </link>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Catamaran&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../public/css/style.css">
+
+    <title>Tamales norteños</title>
+</head>
+
+<body>
+    <div class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent"> 
+            <a class="navbar-brand tamales-navbar-logo" href="#"> 
+                <img src="../public/img/tamales-logo.jpeg" width="220" height="160" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row collapse navbar-collapse nav justify-content-end gx-5" id="navbarNav">
+                <ul class="navbar-nav tamales-navbar-texto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">
+                            <h4>Página de inicio</h4><span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <h4> Bienvenido </h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </div>
+
+    <form class="formulario" method= "POST" action="../funcionales/usuario.js">
+    
+        <h1>Registrate</h1>
+         <div class="contenedor">
+
+         
+         <div class="input-contenedor">
+             <i class="fas fa-user icon"></i>
+             <input type="text" name= "nombre" placeholder="Nombre ">
+             
+             </div>
+
+             <div class="input-contenedor">
+             <i class="fas fa-user icon"></i>
+             <input type="text" name= "apellidos" placeholder="Apellidos">
+             
+             </div>
+             
+             <div class="input-contenedor">
+             <i class="fas fa-envelope icon"></i>
+             <input type="text" name= "email" placeholder="Correo Electrónico">
+             
+             </div>
+             
+             <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+             <input type="password" name= "contraseña" placeholder="Contraseña">
+             
+             </div>
+
+             <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="telefono" name= "telefono" placeholder="Teléfono">
+                 
+                 </div>
+             <br>
+
+             <p class="tamales-entregas-subtitulo">
+                A continuación se encuentran nuestras zonas de entrega 
+            </p>
+          
+        <select class="tamales-registro-zona">
+            <option value="0">Zonas:</option>
+            <option value="1">Jurica</option>
+            <option value="2">Juriquilla</option>
+            <option value="3">Zibatá</option>
+            <option value="4">Refugio</option>
+            <option value="5">La Vista</option>
+            <option value="6">Zaquia</option>
+            <option value="7">Sonterra</option>
+            <option value="8">Balvanegra</option>
+            <option value="9">Tejeda</option>
+            <option value="10">Vista Real</option>
+            <option value="11">Mirador</option>
+            <option value="12">Milenio</option>
+            <option value="13">Campanario</option>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="zona" name= "zona" placeholder="Ingresa aqui la zona">
+                 
+                 </div>
+            
+
+        </select>
+        <br>
+        <br>
+        
+
+             <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="domicilio" name= "domicilio" placeholder="Domicilio">
+                 
+                 </div>
+
+             <div class="input-contenedor">
+                 <i class="fas fa-key icon"></i>
+                     <input type="referencia" name= "referenciaDomicilio" placeholder="Referencia de domicilio">
+                     
+             </div>
+
+             <input type="submit" value="Registrate" class="button">
+             <p>¿Ya tienes una cuenta? <a class="link" href="login.html">Iniciar Sesion</a></p>
+         </div>
+        </form>
+
+
+
+
+
+
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="js/materialize.js"></script>
+    </body>
+    
+    </html>
