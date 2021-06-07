@@ -18,6 +18,19 @@ exports.getRegistro02 = (request, response, next) => {
 
 };
 
+const cliente = new nuevoCliente(request.body.nombre, request.body.apellidos, request.body.telefono, request.body.direccion, request.body.referencia, request.body.email, ID-colonia, request.body.contrasena);
+
+    request.session.error = undefined;
+    cliente.save()
+        .then(() => {
+            response.render('registro03');
+        })
+        .catch(err => {
+            console.log(err);
+            request.session.error = "Este correo electrónico ya está registrado";
+            response.redirect('registro02');
+        });
+
 exports.getLogin = (request, response, next) => {
     response.render('login', {
         error: request.session.error !== undefined ? request.session.error : false,
