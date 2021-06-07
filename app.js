@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-var mysql = require('mysql');
+/* var mysql = require('mysql');
 var connection = mysql.createConnection({
    host: 'localhost',
    user: 'root',
@@ -14,14 +12,32 @@ connection.connect(function(error){
       console.log('Conexion correcta.');
    }
 });
-connection.end();
->>>>>>> a3f26770ad7e2fe35a19863e225dd5c19d1a4072
+connection.end(); */
+
+const path = require('path');
 
 const express = require('express');
 const app = express();
 
-const rutasTamales = require('./routes/index');
-<<<<<<< HEAD
-=======
+app.use(express.static("public"));
 
->>>>>>> a3f26770ad7e2fe35a19863e225dd5c19d1a4072
+
+app.get("/", (req, res) => {
+   res.sendFile(path.join(__dirname, "index.html"));
+});
+
+app.get("/schedule", (req, res) => {
+   //Pedir dias disponibles de la bd
+   //Ordenamos por dia de la semana
+   //Pasar la data al html
+   res.sendFile(path.join(__dirname, "views", "entregas.html")); // ./views/entregas.html
+});
+
+app.get("/delivery", (req, res) => {
+   res.sendFile(path.join(__dirname, "views", "compra1.html")); // ./views/entregas.html
+})
+
+app.set("port", 500);
+app.listen(app.get("port"), () => {
+   console.log("Server running...");
+});
