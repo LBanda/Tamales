@@ -91,11 +91,16 @@ p {
     font-family: 'Catamaran';
 }
 
+input[type="nombre"],
+input[type="apellidos"],
 input[type="domicilio"],
 input[type="text"],
-input[type="password"]{
+input[type="password"],
+input[type="zona"],
+input[type="telefono"],
+input[type="referencia"]{
     font-size: 20px;
-    width: 82%;
+    width: 50%;
     padding: 10px;
     border: none;
 }
@@ -370,7 +375,7 @@ border: 1px solid rgba(200, 100, 0, 0.3);
     /* ---------------------- Registro ------------------- */
 
     .tamales-registro {
-        height: 400px;
+        height: 800px;
         background-color: #f37e7e;
         margin-top: -3%;
         border-radius: 25px;
@@ -380,4 +385,7 @@ border: 1px solid rgba(200, 100, 0, 0.3);
 
     .tamales-registro .tamales-registro-zona{
         margin-left: 40%;
+    }
+    .tamales-registro form{
+        width: 80%;
     }

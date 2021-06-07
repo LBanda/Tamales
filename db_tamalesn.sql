@@ -31,7 +31,6 @@ CREATE TABLE `cliente` (
   `ID-cliente` int(20) NOT NULL,
   `nombre` varchar(30) COLLATE utf8_spanish2_ci DEFAULT NULL,
   `apellidos` varchar(60) COLLATE utf8_spanish2_ci DEFAULT NULL,
-  `ciudad` varchar(10) COLLATE utf8_spanish2_ci DEFAULT NULL,
   `direccion` varchar(80) COLLATE utf8_spanish2_ci DEFAULT NULL,
   `colonia` varchar(20) COLLATE utf8_spanish2_ci DEFAULT NULL,
   `correoElectronico` varchar(100) COLLATE utf8_spanish2_ci DEFAULT NULL,

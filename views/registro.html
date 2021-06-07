@@ -49,36 +49,49 @@
         <hr>
     </div>
 
-    <form class="formulario">
+    <form class="formulario" method= "POST" action="../funcionales/usuario.js">
     
         <h1>Registrate</h1>
          <div class="contenedor">
+
          
          <div class="input-contenedor">
              <i class="fas fa-user icon"></i>
-             <input type="text" placeholder="Nombre Completo">
+             <input type="text" name= "nombre" placeholder="Nombre ">
+             
+             </div>
+
+             <div class="input-contenedor">
+             <i class="fas fa-user icon"></i>
+             <input type="text" name= "apellidos" placeholder="Apellidos">
              
              </div>
              
              <div class="input-contenedor">
              <i class="fas fa-envelope icon"></i>
-             <input type="text" placeholder="Correo Electronico">
+             <input type="text" name= "email" placeholder="Correo Electrónico">
              
              </div>
              
              <div class="input-contenedor">
             <i class="fas fa-key icon"></i>
-             <input type="password" placeholder="Contraseña">
+             <input type="password" name= "contraseña" placeholder="Contraseña">
              
              </div>
+
+             <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="telefono" name= "telefono" placeholder="Teléfono">
+                 
+                 </div>
              <br>
 
              <p class="tamales-entregas-subtitulo">
-                Selecciona la zona donde vives
+                A continuación se encuentran nuestras zonas de entrega 
             </p>
           
         <select class="tamales-registro-zona">
-            <option value="0">Elegir zona:</option>
+            <option value="0">Zonas:</option>
             <option value="1">Jurica</option>
             <option value="2">Juriquilla</option>
             <option value="3">Zibatá</option>
@@ -93,6 +106,13 @@
             <option value="12">Milenio</option>
             <option value="13">Campanario</option>
 
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="zona" name= "zona" placeholder="Ingresa aqui la zona">
+                 
+                 </div>
+            
+
         </select>
         <br>
         <br>
@@ -100,9 +120,15 @@
 
              <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
-                 <input type="domicilio" placeholder="Domicilio">
+                 <input type="domicilio" name= "domicilio" placeholder="Domicilio">
                  
                  </div>
+
+             <div class="input-contenedor">
+                 <i class="fas fa-key icon"></i>
+                     <input type="referencia" name= "referenciaDomicilio" placeholder="Referencia de domicilio">
+                     
+             </div>
 
              <input type="submit" value="Registrate" class="button">
              <p>¿Ya tienes una cuenta? <a class="link" href="login.html">Iniciar Sesion</a></p>
