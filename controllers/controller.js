@@ -1,3 +1,9 @@
+const db = require('../database');
+
+const Distribucion = require('../funcionales/distribucion');
+const pedido = require('../funcionales/pedido');
+const pedidoProducto = require('../funcionales/pedido-producto');
+
 exports.get = (request, response, next) => {
     response.render('paginaInicio');
 };
@@ -6,7 +12,7 @@ exports.getRegistro = (request, response, next) => {
     response.render('registro01');
 };
 exports.getRegistro02 = (request, response, next) => {
-    nuevaDistribucion.fetchAll()
+    Distribucion.fetchAll()
         .then(([rows, fieldData]) => {
             response.render('registro02', {
                 distribuciones: rows,
